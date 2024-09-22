@@ -23,7 +23,6 @@ public class StudentServiceImpl implements StudentService{
 	@Override
 	public Optional<Student> findbyID(Long id) {
 		// TODO Auto-generated method stub
-System.out.println("Hello");
 		return studentRepo.findById(id);
 	}
 	@Override
